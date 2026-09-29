@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+myenv/
+venv/
+.env/
+.venv/
+
+# Zeek live logs
+*.log
+
+# Generated live state
+live_state.json
+risk_history.json
+
+# Backup / temporary Python files
+*.save
+*.before_*
+*_backup.py
+
+# Archives
+*.zip
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+app.py.current
